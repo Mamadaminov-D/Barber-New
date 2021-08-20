@@ -2,6 +2,7 @@ body {
   background-color: rgb(255, 255, 255);
   box-shadow: 20px 20px 30px black;
   border-radius: 17%;
+  /* overflow-x: hidden; */
 }
 
 .container {
@@ -11,8 +12,8 @@ body {
 }
 
 .twins {
-  margin-left: 151px;
-  width: 740px;
+ 
+  width: 580px;
   margin-right: 149px;
   margin-top: 20px;
 }
@@ -264,12 +265,12 @@ body {
 
 .galary-first {
   align-items: center;
+  
 }
 
-.big-galary {
-  margin-left: 270px;
-  padding-bottom: 136px;
-  margin-bottom: 40px;
-  align-items: center;
+.big-galar{
+  width: 609px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
