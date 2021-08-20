@@ -1,0 +1,275 @@
+body {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 20px 20px 30px black;
+  border-radius: 17%;
+}
+
+.container {
+  width: 1155px;
+  margin: 0 auto;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.twins {
+  margin-left: 151px;
+  width: 740px;
+  margin-right: 149px;
+  margin-top: 20px;
+}
+
+.radius-div {
+  border-radius: 30px;
+}
+
+.history-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.history-title {
+  font-family: 'Catamaran', sans-serif;
+  width: 590px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.history-span {
+  color: #FBB400;
+}
+
+.history-txtf {
+  font-size: 18px;
+  width: 360px;
+  line-height: 150.6%;
+  letter-spacing: 0.03em;
+  color: #153461;
+  margin-top: 70px;
+  margin-right: 19px;
+}
+
+.history-txts {
+  font-size: 18px;
+  width: 360px;
+  line-height: 150.6%;
+  letter-spacing: 0.03em;
+  margin-right: 19px;
+  padding-top: 30px;
+  margin-bottom: 70px;
+  color: #153461;
+}
+
+.history-link {
+  text-decoration: none;
+  border-radius: 17px;
+  padding: 15px 20px;
+  background-color: #99BAED;
+}
+
+.services {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services span {
+  color: #FBB400;
+}
+
+.staels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.hair-cut-div {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #99BAED;
+  padding: 30px 5px;
+  margin-left: 349px;
+  box-shadow: 10px 10px 15px rgb(89, 91, 201);
+
+}
+
+.qaychi {
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #E5ECFE;
+  padding: 20px 10px 10px 10px;
+  box-shadow: 5px 5px 8px rgb(241, 235, 235);
+}
+
+.qaychi img {
+  margin-top: 15px;
+  width: 23px;
+  padding-top: 5px;
+}
+
+.hair-cut-title {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 90.6%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hair-cut-title:hover{
+  background-color: #FAFBFFff;
+  color: #163561;
+}
+
+.haircut-txt {
+  width: 125px;
+  font-size: 10px;
+  line-height: 110.6%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.haircut-txt:hover{
+  background-color: #FAFBFF;
+  color: #163561;
+}
+
+.beard-cut-div {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FAFBFF;
+  padding: 26px 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  box-shadow: 10px 10px 20px rgb(155, 153, 153);
+}
+
+.beard-cut-div:hover {
+  background-color: #99BAED;
+  box-shadow: 10px 10px 15px rgb(89, 91, 201);
+}
+
+
+.aparat {
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #E5ECFE;
+  padding: 23px 4px 6px 4px;
+  box-shadow: 5px 5px 8px rgb(92, 90, 90);
+}
+
+.aparat:hover{
+  box-shadow: 5px 5px 8px rgb(241, 235, 235);
+}
+
+.aparat img {
+  margin-top: 15px;
+  width: 36px;
+  padding-top: 5px;
+}
+
+
+.beard-cut-title {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 90.6%;
+  text-align: center;
+  color: #163561;
+}
+
+.beard-cut-title:hover {
+  color: white;
+  box-shadow:10px 10px 15px rgb(89, 91, 201); 
+}
+
+
+
+.beard-cut-txt {
+  width: 125px;
+  font-size: 10px;
+  line-height: 110.6%;
+  text-align: center;
+  color: #153461;
+}
+
+.beard-cut-txt:hover{
+  color: white;
+  box-shadow:10px 10px 15px rgb(89, 91, 201); 
+}
+
+.facial-pack-div {
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FAFBFF;
+  padding: 27px 3px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-right: 340px;
+  box-shadow: 10px 10px 20px rgb(145, 140, 140);
+}
+
+.facial-pack-div:hover {
+  background-color: #99BAED;
+  box-shadow: 10px 10px 15px rgb(89, 91, 201);
+}
+
+.facial-pack-div:active {
+  background-color: rgb(26, 28, 126);
+
+}
+
+
+.facial-pack-title {
+  margin-top: 35px;
+  font-size: 20px;
+  line-height: 100.6%;
+  text-align: center;
+  color: #163561;
+}
+
+.facial-pack-title:hover {
+  color: white;
+  box-shadow:10px 10px 15px rgb(89, 91, 201); 
+}
+
+.facial-pack-txt {
+  width: 125px;
+  font-size: 10px;
+  line-height: 110.6%;
+  text-align: center;
+  color: #153461;
+}
+
+.facial-pack-txt:hover{
+  color: white;
+  box-shadow:10px 10px 15px rgb(89, 91, 201); 
+}
+
+
+.krem img {
+  margin-top: 15px;
+  width: 30px;
+  padding-top: 5px;
+}
+
+.krem {
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #E5ECFE;
+  padding: 23px 6px 9px 6px;
+  box-shadow: 5px 5px 8px rgb(78, 77, 77);
+}
+
+.krem:hover {
+  box-shadow: 5px 5px 8px rgb(241, 235, 235);
+}
+
+.galary-first {
+  align-items: center;
+  
+}
+
+.big-galary {
+  margin-left: 270px;
+  padding-bottom: 136px;
+  margin-bottom: 40px;
+  align-items: center;
+}
