@@ -67,200 +67,109 @@ body {
   background-color: #99BAED;
 }
 
-.services {
+}
+.servises-list{
+  justify-content: space-between;
+  padding-bottom: 272px;
+}
+.servis-title{
+  font-size: 45px;
+  line-height: 116.6%;
   text-align: center;
-  margin-bottom: 40px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+  
+}
+.galery-img{
+  justify-content: space-evenly;
+  margin-top: 110px;
+  padding: 0 40px;
+  padding-bottom: 80px;
+}
+.galry-item{
+  width: 435px;
+  height: 435px;
+  margin-top: 35px;
 }
 
-.services span {
-  color: #FBB400;
-}
-
-.staels {
+.servises-list{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 150px;
+  
 }
 
-.hair-cut-div {
+li {
+  list-style: none;
+}
+
+.history-title{
   text-align: center;
-  border-radius: 10px;
-  background-color: #99BAED;
-  padding: 30px 5px;
-  margin-left: 349px;
-  box-shadow: 10px 10px 15px rgb(89, 91, 201);
-
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.all::before{
+  content: "";
+  width: 103px;
+  height: 129px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 59px;
+}
+.imgg::before{
+  background-image: url("../img/qaychi.svg");
+  margin-right: 95px;
+  width: 113px;
+}
+.imgg1::before{
+  background-image: url("../img/aparat.svg");
+}
+.imgg2::before{
+  background-image: url("../img/jrem.svg");
+  margin-right: 80px;
+  width: 113px;
+}
+.servis-div-all{
+  background: #99BAED;
+  border-radius: 29px;
+  padding: 50px 40px;
 }
 
-.qaychi {
-  margin-top: 10px;
-  border-radius: 4px;
-  background-color: #E5ECFE;
-  padding: 20px 10px 10px 10px;
-  box-shadow: 5px 5px 8px rgb(241, 235, 235);
-}
-
-.qaychi img {
-  margin-top: 15px;
-  width: 23px;
-  padding-top: 5px;
-}
-
-.hair-cut-title {
-  margin-top: 35px;
-  font-size: 20px;
-  line-height: 90.6%;
+.servises-text{
+  font-size: 25px;
+  line-height: 150.6%;  
   text-align: center;
+  letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-
-.hair-cut-title:hover{
-  background-color: #FAFBFFff;
-  color: #163561;
+.servises-item{
+  width: 476px;
 }
-
-.haircut-txt {
-  width: 125px;
-  font-size: 10px;
-  line-height: 110.6%;
-  text-align: center;
-  color: #FFFFFF;
+.servis-item-all1{
+  border-radius: 29px;
+  padding: 50px 40px;
+  background: #FAFBFF;
+  box-shadow: 0px 5px 0px #99BAED;
+  border-radius: 29px;
 }
-
-.haircut-txt:hover{
-  background-color: #FAFBFF;
-  color: #163561;
-}
-
-.beard-cut-div {
-  text-align: center;
-  border-radius: 10px;
-  background-color: #FAFBFF;
-  padding: 26px 4px;
-  margin-right: 5px;
-  margin-left: 5px;
-  box-shadow: 10px 10px 20px rgb(155, 153, 153);
-}
-
-.beard-cut-div:hover {
-  background-color: #99BAED;
-  box-shadow: 10px 10px 15px rgb(89, 91, 201);
-}
-
-
-.aparat {
-  margin-top: 10px;
-  border-radius: 4px;
-  background-color: #E5ECFE;
-  padding: 23px 4px 6px 4px;
-  box-shadow: 5px 5px 8px rgb(92, 90, 90);
-}
-
-.aparat:hover{
-  box-shadow: 5px 5px 8px rgb(241, 235, 235);
-}
-
-.aparat img {
-  margin-top: 15px;
-  width: 36px;
-  padding-top: 5px;
-}
-
-
-.beard-cut-title {
-  margin-top: 35px;
-  font-size: 20px;
-  line-height: 90.6%;
+.servis-title1{
+  font-size: 45px;
+  line-height: 116.6%;
   text-align: center;
   color: #163561;
+  margin-bottom: 60px;
 }
-
-.beard-cut-title:hover {
-  color: white;
-  box-shadow:10px 10px 15px rgb(89, 91, 201); 
-}
-
-
-
-.beard-cut-txt {
-  width: 125px;
-  font-size: 10px;
-  line-height: 110.6%;
+.servises-text1{
+  font-size: 25px;
+  line-height: 150.6%;
   text-align: center;
+  letter-spacing: 0.03em;
   color: #153461;
-}
-
-.beard-cut-txt:hover{
-  color: white;
-  box-shadow:10px 10px 15px rgb(89, 91, 201); 
-}
-
-.facial-pack-div {
-  text-align: center;
-  border-radius: 10px;
-  background-color: #FAFBFF;
-  padding: 27px 3px;
-  margin-right: 5px;
-  margin-left: 5px;
-  margin-right: 340px;
-  box-shadow: 10px 10px 20px rgb(145, 140, 140);
-}
-
-.facial-pack-div:hover {
-  background-color: #99BAED;
-  box-shadow: 10px 10px 15px rgb(89, 91, 201);
-}
-
-.facial-pack-div:active {
-  background-color: rgb(26, 28, 126);
-
-}
-
-
-.facial-pack-title {
-  margin-top: 35px;
-  font-size: 20px;
-  line-height: 100.6%;
-  text-align: center;
-  color: #163561;
-}
-
-.facial-pack-title:hover {
-  color: white;
-  box-shadow:10px 10px 15px rgb(89, 91, 201); 
-}
-
-.facial-pack-txt {
-  width: 125px;
-  font-size: 10px;
-  line-height: 110.6%;
-  text-align: center;
-  color: #153461;
-}
-
-.facial-pack-txt:hover{
-  color: white;
-  box-shadow:10px 10px 15px rgb(89, 91, 201); 
-}
-
-
-.krem img {
-  margin-top: 15px;
-  width: 30px;
-  padding-top: 5px;
-}
-
-.krem {
-  margin-top: 10px;
-  border-radius: 4px;
-  background-color: #E5ECFE;
-  padding: 23px 6px 9px 6px;
-  box-shadow: 5px 5px 8px rgb(78, 77, 77);
-}
-
-.krem:hover {
-  box-shadow: 5px 5px 8px rgb(241, 235, 235);
+  opacity: 0.65;
 }
 
 .galary-first {
